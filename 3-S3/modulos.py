@@ -10,4 +10,5 @@ import math #importando la libreria math
 print(math.sqrt(2)) #calcula la raiz cuadrada de 2
 print(math.exp(2)) #calcula el exponente de 2
 print(math.pow(2,3)) #calcula la potencia de 2 a 3
+print(math.log(2)) #calcula la logaritmo de 2
 
