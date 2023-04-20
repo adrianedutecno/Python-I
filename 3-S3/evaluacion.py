@@ -18,7 +18,7 @@ raiz = math.sqrt(y) #acumulando la raíz cuadrada de la variable y en una variab
 print(f"La raiz cuadradada de {y} es : {raiz}")
 
 
-'''
+''' codigo java
 import java.util.Math
 
  private void main(String[] args){
