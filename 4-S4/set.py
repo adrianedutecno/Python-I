@@ -16,3 +16,15 @@ print(set)
 #remover .remove(elemento)
 set.remove(1)
 print(set)
+
+#interseccion de elementos
+elementos_comunes = nombre_set.intersection(lista)
+print(elementos_comunes)
+
+#diferencia simetrica entre set
+element_unicos = nombre_set.symmetric_difference(lista)
+print(element_unicos)
+
+#elementos diferentes
+elementos_diferentes = nombre_set.difference(lista)
+print(elementos_diferentes)
