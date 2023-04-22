@@ -19,3 +19,7 @@ while i <= 5:
     if i == 4:
         break
     print(f"Imprimiendo el valor de i {i} y probando el break")
+    
+while True:
+    print("Palabra")
+    break
