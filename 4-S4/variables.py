@@ -19,3 +19,7 @@ condicional = False
 
 #metodo de impresion
 print(numero)
+
+print ('"5"+"3"')
+print('Hola, me gusta programar')
+print("Hola, me gusta programar")
