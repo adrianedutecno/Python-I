@@ -7,7 +7,7 @@ Utilizar ciclos y estructuras condicionales.
 #importar libreria para expresiones regulares
 import re
 opcion = ""
-patron = re.compile("^[0-9]{1}$") #compilacion de patron
+patron = re.compile("^[1-5]{1}$") #compilacion de patron
 while opcion != "5": #while True :
     #impresion del menu
     print("Hola, bienvenido, menú")
