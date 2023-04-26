@@ -1,6 +1,6 @@
 # Modulo Python 1, fundamentos del lenguaje Python
 
-_Proyectos que permiten la ejemplificación de códigos de baja complejidad.
+_Proyectos que permiten la ejemplificación de códigos en python, con diferente complejidad.
 
 * variables, tipos de datos, operadores lógicos, operadores cóndicionales, manejo de errores, metodos, listas, tuplas, set, diccionarios.
 _
