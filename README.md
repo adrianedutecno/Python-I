@@ -2,7 +2,7 @@
 
 _Proyectos que permiten la ejemplificación de códigos en python, con diferente complejidad.
 
-* variables, tipos de datos, operadores lógicos, operadores cóndicionales, manejo de errores, metodos, listas, tuplas, set, diccionarios.
+* variables, tipos de datos, operadores lógicos, operadores cóndicionales, manejo de errores, métodos, listas, tuplas, set, diccionarios.
 _
 
 ## Comenzando 🚀
