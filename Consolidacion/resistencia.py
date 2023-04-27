@@ -23,7 +23,7 @@ def validate_input_float(texto):
         try:    
             r = float(input(texto)) #float(), str(), int() casteo o transformacion, conversion del tipo de dato
             if r > 0:
-                #abs(r)
+                #abs(r) obtiene el valor absoluto
                 return r
             else:
                 print("El valor es menor a 0")
