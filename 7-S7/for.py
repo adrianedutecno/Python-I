@@ -24,3 +24,24 @@ for item in range(len(lista)):
 #recorriendo o conociendo el indice de la lista
 for item in lista:
     print("Recorriendo el indice de la lista ",lista.index(item))
+    
+"""
+diccionario
+"""
+diccionario = {'a':1, 'b':2, 'c':3, 'd':4, 'e':5, 'f':6}
+
+#obteniendo el valor de una key
+for item in diccionario:
+    print("Obteniendo el valor de la clave ",item) #a b c d e f
+
+#obteniendo el value de una clave
+for item in diccionario:
+    print("Obteniendo el valor",diccionario[item]) #1 2 3 4 5 6
+
+#obteniendo solo los valores    
+for i in diccionario.values():
+    print("Obteniendo el valor", i) #1 2 3 4 5 6
+    
+#obteniendo solo los keys o clave
+for temp in diccionario.items():
+    print("Obteniendo el elemento con clave:valor", temp) #a b c d e f
