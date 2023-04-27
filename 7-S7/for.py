@@ -32,7 +32,7 @@ diccionario = {'a':1, 'b':2, 'c':3, 'd':4, 'e':5, 'f':6}
 
 #obteniendo el valor de una key
 for item in diccionario:
-    print("Obteniendo el valor de la clave ",item) #a b c d e f
+    print("Obteniendo la clave ",item) #a b c d e f
 
 #obteniendo el value de una clave
 for item in diccionario:
