@@ -20,19 +20,19 @@ validar el ingreso de la resistencia, que sea mayor que 0, controlar error, y ut
 def validate_input_float(texto):
 #ingreso de valores
     while True:
-        try:    
+        try: #intenta ejecutar, si no captura el error   
             r = float(input(texto)) #float(), str(), int() casteo o transformacion, conversion del tipo de dato
             if r > 0:
                 #abs(r) obtiene el valor absoluto
-                return r
+                return r #el ciclo termina por el return
             else:
                 print("El valor es menor a 0")
-        except Exception as error:
+        except Exception as error: #se captura error de conversion o comparacion de tipos de datos
             print("Ha ocurrido un error en el ingreso de la resistencia ",error)
             print("Ha ocurrido un error, ingrese de nuevo el valor de la resistencia")      
         
-r_1 = validate_input_float("Ingrese la resistencia 1: ") ##lamada a funcion o invocando
-r_2 = validate_input_float("Ingrese la resistencia 2: ")
+r_1 = validate_input_float("Ingrese la resistencia 1: ") ##llamada a funcion o invocando
+r_2 = validate_input_float("Ingrese la resistencia 2: ") #se almacena el valor obtenido de la funcion en cada variable
 r_3 = validate_input_float("Ingrese la resistencia 3: ")
 
 # calcular la resistencia total
