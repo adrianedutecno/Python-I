@@ -42,6 +42,8 @@ for item in diccionario:
 for i in diccionario.values():
     print("Obteniendo el valor", i) #1 2 3 4 5 6
     
-#obteniendo solo los keys o clave
+#obteniendo todo el item ej 'a':1 en una tupla
 for temp in diccionario.items():
-    print("Obteniendo el elemento con clave:valor", temp) #a b c d e f
+    print("Obteniendo el elemento en una tupla con clave:valor", temp) #a b c d e f
+    print("La clave es ",temp[0]) #a b c d e f
+    print("El valor es ",temp[1]) #1 2 3 4 5 6
