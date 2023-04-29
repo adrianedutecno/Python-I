@@ -17,7 +17,7 @@ for item in lista:
 print(contador)
     
 #recorriendo o conociendo el indice de la lista
-for item in range(len(lista)):
+for item in range(len(lista)): #0,7,1 comienzo, final, paso
     print("Recorriendo el indice de la lista ",item)
     print("Recorriendo el elemento de la lista ",lista[item])
     
