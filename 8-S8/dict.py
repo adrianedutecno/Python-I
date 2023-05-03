@@ -51,7 +51,7 @@ print("my_dict: ", my_dict)
 my_dict['Direccion']['Numero'] = '1234'
 print("my_dict: ", my_dict)
 
-#insertar 
+#insertar nombre_diccionario[clave] = valor
 my_dict['Telefono'] = 956000876
 print("Elemento Telefono insertado dentro del diccionario my_dict: ", my_dict)
 
