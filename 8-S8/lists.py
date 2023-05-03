@@ -74,3 +74,7 @@ print("La lista es: ",lista) #[8, 7, 6, 5, 4, 3, 2, 1]
 #funcion reverse() los ultimos elementos cambian a ser primero y los primero cambian a ser último
 lista.reverse()
 print("La lista es: ",lista)
+
+#metodo sorted() ordena los elementos de la lista y entrega una nueva lista ordenada
+lista_ordenada = sorted([1,9,2,10])
+print(lista_ordenada)
