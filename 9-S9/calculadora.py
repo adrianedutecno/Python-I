@@ -2,7 +2,7 @@
 # Se pide realizar una calculadora declarando funciones para cada tipo de calculo que se realice
 # realizar un menu con opciones para seleccionar que calculo se desea realizar
 # el ingreso es por consola, requerir al usuario la opcion y numeros al que se realizara el calculo
--verificar errores de ingreso
+# verificar errores de ingreso
 # verificar division por cero
 """
 #print(suma(2,1)) #funciones deben ser definidas antes de invocarlas, si estan en el mismo archivo
@@ -70,6 +70,7 @@ def calculadora():
     
 calculadora() #invocando a la funcion calculadora
 
+# raise ZeroDivisionError("Cannot divide by zero"): generar una excepción de tipo ZeroDivisionError
 # Exception: Clase base para todas las excepciones definidas en Python.
 # AttributeError: Se produce cuando un objeto no tiene un atributo válido.
 # TypeError: Se produce cuando se utiliza un tipo de dato incorrecto o inapropiado.
