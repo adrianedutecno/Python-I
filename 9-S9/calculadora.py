@@ -7,21 +7,21 @@
 """
 #print(suma(2,1)) #funciones deben ser definidas antes de invocarlas, si estan en el mismo archivo
 #def nombre_funcion(parametro1,parametro2):
-def suma(num1, num2):
-    sumatoria = num1 + num2
+def suma(numero1, numero2):
+    sumatoria = numero1 + numero2
     return sumatoria
 
-def resta(num1: float, num2: float):
-    return num1 - num2 
+def resta(numero1: float, numero2: float):
+    return numero1 - numero2 
 
-def multiplicar(num1,num2) -> float:
-    return num1 * num2
+def multiplicar(numero1,numero2) -> float:
+    return numero1 * numero2
 
-def dividir(num1,num2):
-    if num2 == 0:
+def dividir(numero1,numero2):
+    if numero2 == 0:
         return None
     else:
-        return num1 / num2
+        return numero1 / numero2
 
 def opciones_a_mostrar():
     print("Bienvenido a la Calculadora")
