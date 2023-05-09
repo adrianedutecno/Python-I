@@ -5,6 +5,8 @@
 # verificar errores de ingreso
 # verificar division por cero
 """
+import os
+
 #print(suma(2,1)) #funciones deben ser definidas antes de invocarlas, si estan en el mismo archivo
 #def nombre_funcion(parametro1,parametro2):
 def suma(numero1, numero2):
@@ -39,33 +41,37 @@ def ingreso(texto):
     num = float(input(texto))
     return num
 
+def clear_console():
+    os.system('cls' if os.name == 'nt' else 'clear')
+
 #funcion calculadora, llevara el menu y realizara los calculos usando las funciones y estructuras condicionales
 def calculadora():
     while True: #mientras sea True o no exista un break o return, se seguira ejecutando el ciclo
         try:
+            clear_console()
             #requerir y mostrar opciones al usuario
             opciones_a_mostrar() #invocando a la funcion para mostrar las opciones al usuario
             
             #ingresar los valores de opcion y numeros al que se realizara el calculo
             opcion = input("1/2/3/4/5: ")
-            
+            mensaje = "Ingrese número:"
             #evaluar opcion y seleccionar una funcion a realizar si se cumple la condicion
             match opcion:
                 case '1':
-                    resultado = suma(ingreso("Ingrese el primer numero:"),ingreso("Ingrese el segundo numero:")) #invocando a la funcion suma, que necesita dos parametros de ingreso
+                    resultado = suma(ingreso(mensaje),ingreso(mensaje)) #invocando a la funcion suma, que necesita dos parametros de ingreso
                 case '2':
-                    resultado = resta(ingreso("Ingrese el primer numero:"),ingreso("Ingrese el segundo numero:"))
+                    resultado = resta(ingreso(mensaje),ingreso(mensaje))
                 case '3':
-                    resultado = multiplicar(ingreso("Ingrese el primer numero:"),ingreso("Ingrese el segundo numero:"))
+                    resultado = multiplicar(ingreso(mensaje),ingreso(mensaje))
                 case '4':
-                    resultado = dividir(ingreso("Ingrese el primer numero:"),ingreso("Ingrese el segundo numero:"))
+                    resultado = dividir(ingreso(mensaje),ingreso(mensaje))
                 case '5':
                     #return si es funcion
                     #break si es ciclo
                     print("Gracias por usar la calculadora vuelva pronto!!!")
                     break
                 case _: 
-                    #resultado = None
+                    resultado = None
                     print("Opción no valida, elija una opción válida")
                     
             if resultado is not None:
